@@ -1,1 +1,1 @@
-require 'kickstart'
+require 'whatarule'
