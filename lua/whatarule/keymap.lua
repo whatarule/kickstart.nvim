@@ -9,10 +9,10 @@ local function explore()
 end
 vim.keymap.set('n', '<leader>pv', function()
   explore()
-end)
+end, { desc = ':[E]xplore' })
 vim.keymap.set('n', '<leader>e', function()
   explore()
-end)
+end, { desc = ':[E]xplore' })
 
 vim.keymap.set('n', ',', '<down>')
 vim.keymap.set('n', 'm', '<left>')
